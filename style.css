@@ -24,7 +24,7 @@ body{
 .login-card{
     position: relative;
     z-index: 3;
-    width: 80%;
+    width: 40%;
     margin: 0 20px;
     padding: 70px 30px 44px;
     border-radius: 1.25rem;
@@ -106,7 +106,8 @@ body{
 .login-card button {
     cursor: pointer;
     width: 100%;
-    padding: 2% 16px;
+    margin-top: 3%;
+    padding: 3% 16px;
     border-radius: 1.25rem;
     background: #216ce7;
     color: #f9f9f9;

@@ -16,7 +16,7 @@ function getInfo() {
 		// check is user input matches username and password of a current index of the objPeople array
 		if(password == objPeople[i].password) {
 			console.log(password + " logging in...")
-            window.location.replace("https://google.com")
+            window.location.replace("private/index.html")
 			// stop the function if this is found to be true
 			return
 		}
