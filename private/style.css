@@ -7,6 +7,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+
 :root{
     /* ===== Colors ===== */
     --body-color: #E4E9F7;
@@ -346,7 +350,7 @@ body.dark .home .text{
 }
 
 .blogp1 img {
-    max-width: 100%;
+    max-width: 40%;
 }
 
 .blogimg {
@@ -395,3 +399,17 @@ body.dark .home .text{
     75% { height: 100%;}
     100% { height: 0%;}
   }
+
+.row {
+    display: flex;
+    padding-left: 7%;
+}
+  
+.column {
+    flex: 30%;
+    padding: 30px;
+}
+
+.column img {
+    border-radius: 12px;
+}
