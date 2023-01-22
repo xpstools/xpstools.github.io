@@ -8,11 +8,21 @@ document.getElementById('terminalinput').onkeypress = function(e) {
 			console.log("attempting to redirect user...");
             window.location.href="taj.txt";
 		}
+
+        if(terminal.value == objPeople[1].terminal) {
+			console.log("attempting to redirect user...");
+            window.location.href="taj.txt";
+		}
     }
 }
 
 var objPeople = [
 	{ // Object @ 0 index
 		terminal: "cha0s"
-	}
+	},
+
+    {
+        // Object @ 1 index
+        terminal: "sh1mmer"
+    }
 ]
