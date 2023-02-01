@@ -20,7 +20,7 @@
             <span class="fas fa-search"></span>
          </div>
          <div class="search-data">
-            <input type="text" id="jamal" required>
+            <input type="text" onkeydown="if (event.keyCode == 13) proxy()" id="jamal" required>
             <div class="line"></div>
             <label>Type to search..</label>
             <button onclick="proxy()">
