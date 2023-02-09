@@ -6,7 +6,7 @@
 var objPeople = [
 	{ // Object @ 0 index
 		  password: "itz_taj:Bluemoon23"
-	}
+	},
 	{
 	   password: "Kings123"
 	}
