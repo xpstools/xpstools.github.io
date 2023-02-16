@@ -82,6 +82,13 @@
                         </a>
                     </li>
 
+                    <li class="nav-link">
+                        <a href="index.html#bookmarklets">
+                            <i class='bx bx-bookmarks icon' ></i>
+                            <span class="text nav-text">Bookmarklets</span>
+                        </a>
+                    </li>
+
                 </ul>
             </div>
 
@@ -191,6 +198,18 @@
                 <li class="paragraph1"><a href="xpsisthebest.github.io/">xpsisthebest.github.io</a> ; password: XPS13</li>
                 <li class="paragraph1"><a href="toolsxps.github.io/">toolsxps.github.io</a> ; password: xpstools</li>
             </ul>
+        </div>
+
+        <div class="bookmarklets" id="bookmarklets">
+            <div class="text">Official XPS bookmarklets</div>
+            <hr>
+            <div class="bparagraph1">About:Blank cloaker bookmarklet</div>
+            <div class="paragraph1">This bookmarklet hides whatever website you are on, for example XPS, from your history and makes it look like you were on google.</div>
+            <div class="codesnippet">javascript: (function () {   var url = window.location.href;    var urlObj = new window.URL(window.location.href);    win = window.open();    window.location.replace("https://classroom.google.com/h");    win.document.body.style.margin = "0";    win.document.body.style.height = "100vh";    var iframe = win.document.createElement("iframe");    iframe.style.border = "none";    iframe.style.width = "100%";    iframe.style.height = "100%";    iframe.style.margin = "0";    iframe.referrerpolicy = "no-referrer";    iframe.allow = "fullscreen";    iframe.src = url.toString();    win.document.body.appendChild(iframe);})();</div>
+            <hr>
+            <div class="bparagraph1">History flooder bookmarklet</div>
+            <div class="paragraph1">This bookmarklet floods your history with the webpage you are on</div>
+            <div class="codesnippet">javascript:var num=prompt("How Times Do You Want This Page To Show Up In your History?\nMade By: XPS Tools");done=false;x=window.location.href;for (var i=1; i<=num; i++){history.pushState(0, 0, i==num?x:i.toString());if(i==num){done=true}}if(done===true){alert("History Flooding Successful!\n "+window.location.href+" \nNow Appears In Your History "+num+(num==1?" time.":" Times. \nMade By: XPS Tools"))}</div>
         </div>
     </section>
 
