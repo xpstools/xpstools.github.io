@@ -1,7 +1,7 @@
 function proxy() {
     const name1 = document.getElementById('jamal');
     name = name1.value;
-    let url = "https://emulatoros.up.railway.app/apps/apps.html#";
+    let url = "https://stingweb.wtf/sting/";
     turl = url + name;
 
     win = window.open();
